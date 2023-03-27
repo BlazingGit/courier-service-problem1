@@ -23,4 +23,9 @@ PKG1 0 175 0
 PKG2 0 275 0
 PKG3 35 665 0
 
+Thought Process:
+The first problem require us to calculate the delivery cost based on the given weight, distance, and discount coupon. Weight and distance are straight forward.
+To calculate correctly based on the coupon offerId, I store the information of the coupon into a Map so I can retrieve it easily based on the user's input.
+Then I check if the given weight/distance matched the coupon's criteria, if yes then I applied the discount to the delivery cost calculation.
+
 Thank you~
