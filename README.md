@@ -12,4 +12,15 @@ Run 'go test -v' to execute the test function.
 
 I also attached a sample screenshot of the program. (SampleOutput.PNG)
 
+Sample Input:
+100 3
+PKG1 5 5 OFR001
+PKG2 15 5 OFR002
+PKG3 10 100 OFR003
+
+Sample Output:
+PKG1 0 175 0
+PKG2 0 275 0
+PKG3 35 665 0
+
 Thank you~
